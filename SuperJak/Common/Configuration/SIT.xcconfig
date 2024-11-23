@@ -1,0 +1,12 @@
+//
+//  SIT.xcconfig
+//  SuperJak
+//
+//  Created by Denny Arfansyah on 23/11/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = https://thajakarandeveloper.com/sit/api
+BUILD_ENVIRONMENT = SIT
