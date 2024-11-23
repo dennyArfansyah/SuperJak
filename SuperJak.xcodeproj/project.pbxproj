@@ -18,6 +18,22 @@
 		379AA5C52CF1A9AB0098505A /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */; };
 		379AA5C72CF1AA3E0098505A /* SIT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */; };
 		379AA5C92CF1AA740098505A /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C82CF1AA740098505A /* Prod.xcconfig */; };
+		37CDA1C32CF1B5DA0060679F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5982CF1A94B0098505A /* ContentView.swift */; };
+		37CDA1C42CF1B5DA0060679F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA59A2CF1A94B0098505A /* Item.swift */; };
+		37CDA1C52CF1B5DA0060679F /* SuperJakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5962CF1A94B0098505A /* SuperJakApp.swift */; };
+		37CDA1C82CF1B5DA0060679F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59F2CF1A94D0098505A /* Preview Assets.xcassets */; };
+		37CDA1C92CF1B5DA0060679F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59C2CF1A94D0098505A /* Assets.xcassets */; };
+		37CDA1CA2CF1B5DA0060679F /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C82CF1AA740098505A /* Prod.xcconfig */; };
+		37CDA1CB2CF1B5DA0060679F /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */; };
+		37CDA1CC2CF1B5DA0060679F /* SIT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */; };
+		37CDA1D42CF1B6A20060679F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5982CF1A94B0098505A /* ContentView.swift */; };
+		37CDA1D52CF1B6A20060679F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA59A2CF1A94B0098505A /* Item.swift */; };
+		37CDA1D62CF1B6A20060679F /* SuperJakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5962CF1A94B0098505A /* SuperJakApp.swift */; };
+		37CDA1D92CF1B6A20060679F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59F2CF1A94D0098505A /* Preview Assets.xcassets */; };
+		37CDA1DA2CF1B6A20060679F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59C2CF1A94D0098505A /* Assets.xcassets */; };
+		37CDA1DB2CF1B6A20060679F /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C82CF1AA740098505A /* Prod.xcconfig */; };
+		37CDA1DC2CF1B6A20060679F /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */; };
+		37CDA1DD2CF1B6A20060679F /* SIT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +68,11 @@
 		379AA5C42CF1A9AA0098505A /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
 		379AA5C62CF1AA3E0098505A /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
 		379AA5C82CF1AA740098505A /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		37CDA1D12CF1B5DA0060679F /* SuperJak Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperJak Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CDA1E22CF1B6A20060679F /* SuperJak SIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperJak SIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CDA1E32CF1BB8C0060679F /* SuperJak-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SuperJak-Dev-Info.plist"; sourceTree = "<group>"; };
+		37CDA1E42CF1BC300060679F /* SuperJak-SIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SuperJak-SIT-Info.plist"; sourceTree = "<group>"; };
+		37CDA1E52CF1BC3D0060679F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +97,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CDA1C62CF1B5DA0060679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CDA1D72CF1B6A20060679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		379AA58A2CF1A94B0098505A = {
 			isa = PBXGroup;
 			children = (
+				37CDA1E42CF1BC300060679F /* SuperJak-SIT-Info.plist */,
+				37CDA1E32CF1BB8C0060679F /* SuperJak-Dev-Info.plist */,
 				379AA5952CF1A94B0098505A /* SuperJak */,
 				379AA5A82CF1A94E0098505A /* SuperJakTests */,
 				379AA5B22CF1A94E0098505A /* SuperJakUITests */,
@@ -95,6 +132,8 @@
 				379AA5932CF1A94B0098505A /* SuperJak.app */,
 				379AA5A52CF1A94E0098505A /* SuperJakTests.xctest */,
 				379AA5AF2CF1A94E0098505A /* SuperJakUITests.xctest */,
+				37CDA1D12CF1B5DA0060679F /* SuperJak Dev.app */,
+				37CDA1E22CF1B6A20060679F /* SuperJak SIT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +141,7 @@
 		379AA5952CF1A94B0098505A /* SuperJak */ = {
 			isa = PBXGroup;
 			children = (
+				37CDA1E52CF1BC3D0060679F /* Info.plist */,
 				379AA5C22CF1A97E0098505A /* Common */,
 				379AA5962CF1A94B0098505A /* SuperJakApp.swift */,
 				379AA5982CF1A94B0098505A /* ContentView.swift */,
@@ -211,6 +251,40 @@
 			productReference = 379AA5AF2CF1A94E0098505A /* SuperJakUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		37CDA1C12CF1B5DA0060679F /* SuperJak Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CDA1CD2CF1B5DA0060679F /* Build configuration list for PBXNativeTarget "SuperJak Dev" */;
+			buildPhases = (
+				37CDA1C22CF1B5DA0060679F /* Sources */,
+				37CDA1C62CF1B5DA0060679F /* Frameworks */,
+				37CDA1C72CF1B5DA0060679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperJak Dev";
+			productName = SuperJak;
+			productReference = 37CDA1D12CF1B5DA0060679F /* SuperJak Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37CDA1D22CF1B6A20060679F /* SuperJak SIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CDA1DE2CF1B6A20060679F /* Build configuration list for PBXNativeTarget "SuperJak SIT" */;
+			buildPhases = (
+				37CDA1D32CF1B6A20060679F /* Sources */,
+				37CDA1D72CF1B6A20060679F /* Frameworks */,
+				37CDA1D82CF1B6A20060679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperJak SIT";
+			productName = SuperJak;
+			productReference = 37CDA1E22CF1B6A20060679F /* SuperJak SIT.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,6 +321,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				37CDA1C12CF1B5DA0060679F /* SuperJak Dev */,
+				37CDA1D22CF1B6A20060679F /* SuperJak SIT */,
 				379AA5922CF1A94B0098505A /* SuperJak */,
 				379AA5A42CF1A94E0098505A /* SuperJakTests */,
 				379AA5AE2CF1A94E0098505A /* SuperJakUITests */,
@@ -281,6 +357,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CDA1C72CF1B5DA0060679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDA1C82CF1B5DA0060679F /* Preview Assets.xcassets in Resources */,
+				37CDA1C92CF1B5DA0060679F /* Assets.xcassets in Resources */,
+				37CDA1CA2CF1B5DA0060679F /* Prod.xcconfig in Resources */,
+				37CDA1CB2CF1B5DA0060679F /* Dev.xcconfig in Resources */,
+				37CDA1CC2CF1B5DA0060679F /* SIT.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CDA1D82CF1B6A20060679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDA1D92CF1B6A20060679F /* Preview Assets.xcassets in Resources */,
+				37CDA1DA2CF1B6A20060679F /* Assets.xcassets in Resources */,
+				37CDA1DB2CF1B6A20060679F /* Prod.xcconfig in Resources */,
+				37CDA1DC2CF1B6A20060679F /* Dev.xcconfig in Resources */,
+				37CDA1DD2CF1B6A20060679F /* SIT.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -311,6 +411,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37CDA1C22CF1B5DA0060679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDA1C32CF1B5DA0060679F /* ContentView.swift in Sources */,
+				37CDA1C42CF1B5DA0060679F /* Item.swift in Sources */,
+				37CDA1C52CF1B5DA0060679F /* SuperJakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CDA1D32CF1B6A20060679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDA1D42CF1B6A20060679F /* ContentView.swift in Sources */,
+				37CDA1D52CF1B6A20060679F /* Item.swift in Sources */,
+				37CDA1D62CF1B6A20060679F /* SuperJakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -327,8 +447,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		379AA5B72CF1A94E0098505A /* Debug */ = {
+		379AA5B72CF1A94E0098505A /* Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -388,10 +509,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Dev;
 		};
-		379AA5B82CF1A94E0098505A /* Release */ = {
+		379AA5B82CF1A94E0098505A /* SIT */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -444,10 +566,11 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = SIT;
 		};
-		379AA5BA2CF1A94E0098505A /* Debug */ = {
+		379AA5BA2CF1A94E0098505A /* Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,11 +580,12 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperJak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperJak;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,10 +597,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Dev;
 		};
-		379AA5BB2CF1A94E0098505A /* Release */ = {
+		379AA5BB2CF1A94E0098505A /* SIT */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,11 +611,12 @@
 				DEVELOPMENT_TEAM = 3L73K388LH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperJak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperJak;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,9 +628,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = SIT;
 		};
-		379AA5BD2CF1A94E0098505A /* Debug */ = {
+		379AA5BD2CF1A94E0098505A /* Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,9 +648,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperJak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperJak";
 			};
-			name = Debug;
+			name = Dev;
 		};
-		379AA5BE2CF1A94E0098505A /* Release */ = {
+		379AA5BE2CF1A94E0098505A /* SIT */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -542,9 +668,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperJak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperJak";
 			};
-			name = Release;
+			name = SIT;
 		};
-		379AA5C02CF1A94E0098505A /* Debug */ = {
+		379AA5C02CF1A94E0098505A /* Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -560,9 +686,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SuperJak;
 			};
-			name = Debug;
+			name = Dev;
 		};
-		379AA5C12CF1A94E0098505A /* Release */ = {
+		379AA5C12CF1A94E0098505A /* SIT */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -578,7 +704,322 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SuperJak;
 			};
-			name = Release;
+			name = SIT;
+		};
+		37CDA1AC2CF1AE590060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C82CF1AA740098505A /* Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Prod;
+		};
+		37CDA1AD2CF1AE590060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C82CF1AA740098505A /* Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperJak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SuperJak;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Prod;
+		};
+		37CDA1AE2CF1AE590060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperJak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperJak";
+			};
+			name = Prod;
+		};
+		37CDA1AF2CF1AE590060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperJak;
+			};
+			name = Prod;
+		};
+		37CDA1CE2CF1B5DA0060679F /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "https://thajakarandeveloper.com/dev/api";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-Dev-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		37CDA1CF2CF1B5DA0060679F /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "https://thajakarandeveloper.com/sit/api";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-Dev-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = SIT;
+		};
+		37CDA1D02CF1B5DA0060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C82CF1AA740098505A /* Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "https://thajakarandeveloper.com/api";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-Dev-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Prod;
+		};
+		37CDA1DF2CF1B6A20060679F /* Dev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-SIT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperJak SIT";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak.sit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		37CDA1E02CF1B6A20060679F /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-SIT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperJak SIT";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak.sit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = SIT;
+		};
+		37CDA1E12CF1B6A20060679F /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379AA5C82CF1AA740098505A /* Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperJak/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L73K388LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SuperJak-SIT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuperJak SIT";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arfansyah.denny.SuperJak.sit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Prod;
 		};
 /* End XCBuildConfiguration section */
 
@@ -586,38 +1027,62 @@
 		379AA58E2CF1A94B0098505A /* Build configuration list for PBXProject "SuperJak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				379AA5B72CF1A94E0098505A /* Debug */,
-				379AA5B82CF1A94E0098505A /* Release */,
+				379AA5B72CF1A94E0098505A /* Dev */,
+				379AA5B82CF1A94E0098505A /* SIT */,
+				37CDA1AC2CF1AE590060679F /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Dev;
 		};
 		379AA5B92CF1A94E0098505A /* Build configuration list for PBXNativeTarget "SuperJak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				379AA5BA2CF1A94E0098505A /* Debug */,
-				379AA5BB2CF1A94E0098505A /* Release */,
+				379AA5BA2CF1A94E0098505A /* Dev */,
+				379AA5BB2CF1A94E0098505A /* SIT */,
+				37CDA1AD2CF1AE590060679F /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Dev;
 		};
 		379AA5BC2CF1A94E0098505A /* Build configuration list for PBXNativeTarget "SuperJakTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				379AA5BD2CF1A94E0098505A /* Debug */,
-				379AA5BE2CF1A94E0098505A /* Release */,
+				379AA5BD2CF1A94E0098505A /* Dev */,
+				379AA5BE2CF1A94E0098505A /* SIT */,
+				37CDA1AE2CF1AE590060679F /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Dev;
 		};
 		379AA5BF2CF1A94E0098505A /* Build configuration list for PBXNativeTarget "SuperJakUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				379AA5C02CF1A94E0098505A /* Debug */,
-				379AA5C12CF1A94E0098505A /* Release */,
+				379AA5C02CF1A94E0098505A /* Dev */,
+				379AA5C12CF1A94E0098505A /* SIT */,
+				37CDA1AF2CF1AE590060679F /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Dev;
+		};
+		37CDA1CD2CF1B5DA0060679F /* Build configuration list for PBXNativeTarget "SuperJak Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CDA1CE2CF1B5DA0060679F /* Dev */,
+				37CDA1CF2CF1B5DA0060679F /* SIT */,
+				37CDA1D02CF1B5DA0060679F /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Dev;
+		};
+		37CDA1DE2CF1B6A20060679F /* Build configuration list for PBXNativeTarget "SuperJak SIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CDA1DF2CF1B6A20060679F /* Dev */,
+				37CDA1E02CF1B6A20060679F /* SIT */,
+				37CDA1E12CF1B6A20060679F /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Dev;
 		};
 /* End XCConfigurationList section */
 	};
