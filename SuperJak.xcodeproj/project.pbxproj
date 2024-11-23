@@ -34,6 +34,8 @@
 		37CDA1DB2CF1B6A20060679F /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C82CF1AA740098505A /* Prod.xcconfig */; };
 		37CDA1DC2CF1B6A20060679F /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C42CF1A9AA0098505A /* Dev.xcconfig */; };
 		37CDA1DD2CF1B6A20060679F /* SIT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 379AA5C62CF1AA3E0098505A /* SIT.xcconfig */; };
+		37E18F802CF1FB8700177D8F /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 37E18F7F2CF1FB8700177D8F /* netfox */; };
+		37E18F822CF1FB9C00177D8F /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 37E18F812CF1FB9C00177D8F /* netfox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E18F802CF1FB8700177D8F /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E18F822CF1FB9C00177D8F /* netfox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,9 @@
 			dependencies = (
 			);
 			name = "SuperJak Dev";
+			packageProductDependencies = (
+				37E18F7F2CF1FB8700177D8F /* netfox */,
+			);
 			productName = SuperJak;
 			productReference = 37CDA1D12CF1B5DA0060679F /* SuperJak Dev.app */;
 			productType = "com.apple.product-type.application";
@@ -281,6 +288,9 @@
 			dependencies = (
 			);
 			name = "SuperJak SIT";
+			packageProductDependencies = (
+				37E18F812CF1FB9C00177D8F /* netfox */,
+			);
 			productName = SuperJak;
 			productReference = 37CDA1E22CF1B6A20060679F /* SuperJak SIT.app */;
 			productType = "com.apple.product-type.application";
@@ -317,6 +327,10 @@
 				Base,
 			);
 			mainGroup = 379AA58A2CF1A94B0098505A;
+			packageReferences = (
+				37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */,
+				37E18F832CF1FCA000177D8F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			productRefGroup = 379AA5942CF1A94B0098505A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1093,6 +1107,38 @@
 			defaultConfigurationName = Dev;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+		37E18F832CF1FCA000177D8F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37E18F7F2CF1FB8700177D8F /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+		37E18F812CF1FB9C00177D8F /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 379AA58B2CF1A94B0098505A /* Project object */;
 }
