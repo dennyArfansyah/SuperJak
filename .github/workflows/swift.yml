@@ -1,25 +1,23 @@
-# This workflow will build a Swift project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
-
-name: SuperJak CI
+name: iOS CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
-    runs-on: macos-latest
-    
+    runs-on: macos-latest  # Use a macOS runner for iOS builds
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode.app
+      - name: Build the app
+        run: xcodebuild clean build -project SuperJak.xcodeproj -scheme SuperJak -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.5'
 
-      - name: Build
-        run: xcodebuild clean build -project SuperJak.xcodeproj -scheme SuperJak -destination 'platform=iOS Simulator, name=iPhone 15'
-
-        
+      - name: Test the app
+        run: xcodebuild clean test -project SuperJak.xcodeproj -scheme SuperJak -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.5' ONLY_ACTIVE_ARCH=YES
