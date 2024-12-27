@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "678FF641-F6AB-4C6E-BDD9-05F0872D0D1A",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SuperJak.xcodeproj",
+      "identifier" : "37CDA1D22CF1B6A20060679F",
+      "name" : "SuperJak SIT"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SuperJak.xcodeproj",
+        "identifier" : "379AA5A42CF1A94E0098505A",
+        "name" : "SuperJakTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SuperJak.xcodeproj",
+        "identifier" : "379AA5AE2CF1A94E0098505A",
+        "name" : "SuperJakUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
