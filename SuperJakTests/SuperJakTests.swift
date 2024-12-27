@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SuperJak
+@testable import SuperJak_SIT
 
 final class SuperJakTests: XCTestCase {
 
@@ -31,6 +31,16 @@ final class SuperJakTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func test_Aritmathic() {
+        let sum = 1+1
+        XCTAssertEqual(sum, 2)
+    }
+    
+    func test_stringEqualizer() {
+        let item1 = "Hello World"
+        XCTAssertNotEqual(item1, "Its me Denny")
     }
 
 }
