@@ -13,8 +13,6 @@
 		379AA59D2CF1A94D0098505A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59C2CF1A94D0098505A /* Assets.xcassets */; };
 		379AA5A02CF1A94D0098505A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59F2CF1A94D0098505A /* Preview Assets.xcassets */; };
 		379AA5AA2CF1A94E0098505A /* SuperJakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5A92CF1A94E0098505A /* SuperJakTests.swift */; };
-		379AA5B42CF1A94E0098505A /* SuperJakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5B32CF1A94E0098505A /* SuperJakUITests.swift */; };
-		379AA5B62CF1A94E0098505A /* SuperJakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5B52CF1A94E0098505A /* SuperJakUITestsLaunchTests.swift */; };
 		37CDA1C32CF1B5DA0060679F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5982CF1A94B0098505A /* ContentView.swift */; };
 		37CDA1C42CF1B5DA0060679F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA59A2CF1A94B0098505A /* Item.swift */; };
 		37CDA1C52CF1B5DA0060679F /* SuperJakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA5962CF1A94B0098505A /* SuperJakApp.swift */; };
@@ -73,8 +71,6 @@
 		379AA5A52CF1A94E0098505A /* SuperJakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperJakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		379AA5A92CF1A94E0098505A /* SuperJakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperJakTests.swift; sourceTree = "<group>"; };
 		379AA5AF2CF1A94E0098505A /* SuperJakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperJakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		379AA5B32CF1A94E0098505A /* SuperJakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperJakUITests.swift; sourceTree = "<group>"; };
-		379AA5B52CF1A94E0098505A /* SuperJakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperJakUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		379AA5C42CF1A9AA0098505A /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
 		379AA5C62CF1AA3E0098505A /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
 		379AA5C82CF1AA740098505A /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
@@ -136,7 +132,6 @@
 				37CDA1E32CF1BB8C0060679F /* SuperJak-Dev-Info.plist */,
 				379AA5952CF1A94B0098505A /* SuperJak */,
 				379AA5A82CF1A94E0098505A /* SuperJakTests */,
-				379AA5B22CF1A94E0098505A /* SuperJakUITests */,
 				379AA5942CF1A94B0098505A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,15 +176,6 @@
 				379AA5A92CF1A94E0098505A /* SuperJakTests.swift */,
 			);
 			path = SuperJakTests;
-			sourceTree = "<group>";
-		};
-		379AA5B22CF1A94E0098505A /* SuperJakUITests */ = {
-			isa = PBXGroup;
-			children = (
-				379AA5B32CF1A94E0098505A /* SuperJakUITests.swift */,
-				379AA5B52CF1A94E0098505A /* SuperJakUITestsLaunchTests.swift */,
-			);
-			path = SuperJakUITests;
 			sourceTree = "<group>";
 		};
 		379AA5C22CF1A97E0098505A /* Common */ = {
@@ -427,8 +413,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379AA5B62CF1A94E0098505A /* SuperJakUITestsLaunchTests.swift in Sources */,
-				379AA5B42CF1A94E0098505A /* SuperJakUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
