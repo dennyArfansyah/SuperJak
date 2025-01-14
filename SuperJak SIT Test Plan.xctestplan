@@ -22,13 +22,6 @@
         "identifier" : "379AA5A42CF1A94E0098505A",
         "name" : "SuperJakTests"
       }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:SuperJak.xcodeproj",
-        "identifier" : "379AA5AE2CF1A94E0098505A",
-        "name" : "SuperJakUITests"
-      }
     }
   ],
   "version" : 1
