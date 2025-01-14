@@ -27,6 +27,8 @@
 		37CDA1DA2CF1B6A20060679F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379AA59C2CF1A94D0098505A /* Assets.xcassets */; };
 		37E18F802CF1FB8700177D8F /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 37E18F7F2CF1FB8700177D8F /* netfox */; };
 		37E18F822CF1FB9C00177D8F /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 37E18F812CF1FB9C00177D8F /* netfox */; };
+		37FB6EA52D36455900B038F6 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 37FB6EA42D36455900B038F6 /* CombineMoya */; };
+		37FB6EA72D36455900B038F6 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 37FB6EA62D36455900B038F6 /* Moya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,7 +119,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FB6EA52D36455900B038F6 /* CombineMoya in Frameworks */,
 				37E18F822CF1FB9C00177D8F /* netfox in Frameworks */,
+				37FB6EA72D36455900B038F6 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,8 @@
 			name = "SuperJak SIT";
 			packageProductDependencies = (
 				37E18F812CF1FB9C00177D8F /* netfox */,
+				37FB6EA42D36455900B038F6 /* CombineMoya */,
+				37FB6EA62D36455900B038F6 /* Moya */,
 			);
 			productName = SuperJak;
 			productReference = 37CDA1E22CF1B6A20060679F /* SuperJak SIT.app */;
@@ -339,6 +345,7 @@
 			packageReferences = (
 				37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */,
 				37E18F832CF1FCA000177D8F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				37FB6EA32D36455900B038F6 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = 379AA5942CF1A94B0098505A /* Products */;
 			projectDirPath = "";
@@ -1179,6 +1186,14 @@
 				minimumVersion = 0.57.0;
 			};
 		};
+		37FB6EA32D36455900B038F6 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1191,6 +1206,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 37E18F7E2CF1FB8700177D8F /* XCRemoteSwiftPackageReference "netfox" */;
 			productName = netfox;
+		};
+		37FB6EA42D36455900B038F6 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37FB6EA32D36455900B038F6 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		37FB6EA62D36455900B038F6 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37FB6EA32D36455900B038F6 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
