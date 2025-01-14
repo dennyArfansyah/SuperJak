@@ -10,4 +10,8 @@ import XCTest
 
 final class SuperJakTests: XCTestCase {
 
+    
+    func testFail() {
+        XCTFail()
+    }
 }
