@@ -1,17 +1,17 @@
 name: iOS CI/CD Pipeline
 
-on:
-  push:
-    branches:
-      - core
+# on:
+#   push:
+#     branches:
+#       - core
 
-jobs:
-  build:
-    runs-on: macos-latest  # Use a macOS runner for iOS builds
+# jobs:
+#   build:
+#     runs-on: macos-latest  # Use a macOS runner for iOS builds
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      - name: Build the app
-        run: xcodebuild clean test -project SuperJak.xcodeproj -scheme SuperJak -destination 'platform:visionOS Simulator, variant:Designed for [iPad,iPhone], id:9E257D02-C61C-4250-A190-BB32022FAD35, OS:1.2, name:Apple Vision Pro'
+#       - name: Build the app
+#         run: xcodebuild clean test -project SuperJak.xcodeproj -scheme SuperJak -destination 'platform:visionOS Simulator, variant:Designed for [iPad,iPhone], id:9E257D02-C61C-4250-A190-BB32022FAD35, OS:1.2, name:Apple Vision Pro'
